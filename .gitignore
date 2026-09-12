@@ -1,0 +1,14 @@
+# Build directories
+build/
+bin/
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Compiled Object files
+*.o
+*.out
+
+# Executable
+monitor

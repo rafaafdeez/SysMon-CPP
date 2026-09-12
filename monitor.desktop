@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=System Monitor
+Comment=System monitor built in C++
+Exec=monitor
+Icon=utilities-system-monitor
+Terminal=true
+Type=Application
+Categories=System;Utility;
