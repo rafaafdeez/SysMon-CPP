@@ -4,9 +4,7 @@ A lightweight, Object-Oriented system resource monitor for Linux environments, w
 
 This project demonstrates low-level system interaction by parsing kernel data directly from the `/proc` virtual filesystem, built with a clean, modular architecture suitable for performance-critical environments.
 
-![SysMon-CPP Screenshot](docs/screenshot.png)
-_(Note: Create a `docs` folder in your repo, take a screenshot of your terminal showing the ASCII bars, name it screenshot.png and put it there, then delete this italic note)_
-
+![SysMon-CPP Screenshot](img/test.png)
 ## Features
 
 - **Real-Time Telemetry:** Calculates precise CPU load (delta between clock ticks) and RAM utilization.
