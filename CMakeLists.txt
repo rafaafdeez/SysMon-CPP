@@ -8,17 +8,18 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(include)
 
 # Build the monitor executable from all application sources.
-add_executable(monitor 
+add_executable(SysMon-CPP 
     src/main.cpp 
     src/SystemInfo.cpp 
     src/Parser.cpp 
     src/Display.cpp
+    src/NetworkClient.cpp
 )
 
 # --- Installation rules ---
 
 # Install the executable in the system binary directory.
-install(TARGETS monitor DESTINATION bin)
+install(TARGETS SysMon-CPP  DESTINATION bin)
 
 # Install the desktop entry for graphical application menus.
-install(FILES monitor.desktop DESTINATION share/applications)
+install(FILES SysMon-CPP.desktop DESTINATION share/applications)

@@ -31,5 +31,5 @@ void SystemInfo::refresh(){
     previousCpuValues = currentCpuValues;
 }
 
-float SystemInfo::getCpuUsage() const { return cpu_usage; }
+float SystemInfo::getCpuUsage() const { return cpu_usage;}
 float SystemInfo::getMemUsage() const { return mem_usage; }

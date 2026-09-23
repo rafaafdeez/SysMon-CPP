@@ -4,8 +4,7 @@ A lightweight, Object-Oriented system resource monitor for Linux environments, w
 
 This project demonstrates low-level system interaction by parsing kernel data directly from the `/proc` virtual filesystem, built with a clean, modular architecture suitable for performance-critical environments.
 
-![SysMon-CPP Screenshot](docs/screenshot.png)
-_(Note: Create a `docs` folder in your repo, take a screenshot of your terminal showing the ASCII bars, name it screenshot.png and put it there, then delete this italic note)_
+![SysMon-CPP Screenshot](img/test.png)
 
 ## Features
 
@@ -34,7 +33,7 @@ To compile the project from source, ensure you have `cmake` and a C++ compiler (
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/YOUR-USERNAME/SysMon-CPP.git](https://github.com/YOUR-USERNAME/SysMon-CPP.git)
+git clone [https://github.com/rafaafdeez/SysMon-CPP.git](https://github.com/rafaafdeez/SysMon-CPP.git)
 cd SysMon-CPP
 
 # 2. Create the build directory
