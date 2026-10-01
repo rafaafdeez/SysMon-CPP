@@ -10,7 +10,8 @@ This project demonstrates low-level system interaction by parsing kernel data di
 
 The C++ agent streams metrics in real-time to the Java server, which persists them in PostgreSQL (Supabase) for live visualization in Grafana.
 
-<video src="img/demo.webm" autoplay loop muted playsinline width="100%"></video>
+[demo.webm](https://github.com/user-attachments/assets/fa03a2ad-c772-4c19-999c-f292ad877c71)
+
 
 ## Features
 
