@@ -6,7 +6,11 @@ This project demonstrates low-level system interaction by parsing kernel data di
 
 **🔗 Part of the SysMon Architecture:** This repository is the agent component. It works in tandem with the [SysMon Server](https://github.com/rafaafdeez/sysmon-server) (a Java backend that receives and processes the telemetry over TCP).
 
-![SysMon-CPP Screenshot](img/test.png)
+## 🚀 Live Architecture Demo
+
+The C++ agent streams metrics in real-time to the Java server, which persists them in PostgreSQL (Supabase) for live visualization in Grafana.
+
+<video src="img/demo.webm" autoplay loop muted playsinline width="100%"></video>
 
 ## Features
 

@@ -11,4 +11,6 @@ bin/
 *.out
 
 # Executable
-monitor
+monitorCMakeCache.txt
+CMakeFiles/
+build/
